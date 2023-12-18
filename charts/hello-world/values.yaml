@@ -5,7 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: registry.hub.docker.com/library/nginx
+  registry: docker.io
+  repository: nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
