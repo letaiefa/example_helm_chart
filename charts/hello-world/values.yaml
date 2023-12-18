@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: alanrenouf/docker-nginx-hello-keswick
+  repository: registry.hub.docker.com/library/nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
